@@ -1,0 +1,5 @@
+#This is make file for PA03
+
+output: myshell.c
+	gcc -o myshell myshell.c
+	gcc -o version version.c

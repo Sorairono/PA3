@@ -1,0 +1,160 @@
+Script started on Sun 24 Mar 2019 11:47:46 PM CDT
+]0;alongday28@Sorairono: ~[01;32malongday28@Sorairono[00m:[01;34m~[00m$ gcc myshell.c -i[Ko myshell.distro
+]0;alongday28@Sorairono: ~[01;32malongday28@Sorairono[00m:[01;34m~[00m$ ./myshell.distro 
+Sorairono's Custom Shell (Type 'exit' to exit the shell)
+Sorairono's Shell>$ ls
+blah	   Music	   NetBeansProjects	    Public  Templates
+Desktop    mydata	   PA03_Documentation.docx  shell   Videos
+Documents  myshell.c	   PA03.script		    snap
+Downloads  myshell.distro  Pictures		    Study
+Sorairono's Shell>$ ls -l
+total 92
+drwxrwxr-x 2 alongday28 alongday28  4096 Feb  9 21:51 blah
+drwxr-xr-x 2 alongday28 alongday28  4096 Jan 10 03:42 Desktop
+drwxr-xr-x 2 alongday28 alongday28  4096 Jan 10 03:42 Documents
+drwxr-xr-x 4 alongday28 alongday28  4096 Mar 24 23:45 Downloads
+drwxr-xr-x 2 alongday28 alongday28  4096 Jan 10 03:42 Music
+drwxrwxr-x 2 alongday28 alongday28  4096 Feb 25 02:27 mydata
+-rw-rw-r-- 1 alongday28 alongday28  2037 Mar 24 23:27 myshell.c
+-rwxrwxr-x 1 alongday28 alongday28 13808 Mar 24 23:47 myshell.distro
+drwxrwxr-x 3 alongday28 alongday28  4096 Jan 22 09:51 NetBeansProjects
+-rw-rw-r-- 1 alongday28 alongday28 11904 Mar 24 23:45 PA03_Documentation.docx
+-rw-rw-r-- 1 alongday28 alongday28     0 Mar 24 23:47 PA03.script
+drwxr-xr-x 2 alongday28 alongday28  4096 Mar 14 10:33 Pictures
+drwxr-xr-x 2 alongday28 alongday28  4096 Jan 10 03:42 Public
+drwxrwxr-x 2 alongday28 alongday28  4096 Mar 24 23:30 shell
+drwxr-xr-x 3 alongday28 alongday28  4096 Jan 10 04:05 snap
+drwxrwxr-x 5 alongday28 alongday28  4096 Mar 11 17:04 Study
+drwxr-xr-x 2 alongday28 alongday28  4096 Jan 10 03:42 Templates
+drwxr-xr-x 3 alongday28 alongday28  4096 Feb  4 19:04 Videos
+Sorairono's Shell>$ ls -r
+Videos	   shell	PA03_Documentation.docx  mydata     Desktop
+Templates  Public	NetBeansProjects	 Music	    blah
+Study	   Pictures	myshell.distro		 Downloads
+snap	   PA03.script	myshell.c		 Documents
+Sorairono's Shell>$ ls -lr
+total 92
+drwxr-xr-x 3 alongday28 alongday28  4096 Feb  4 19:04 Videos
+drwxr-xr-x 2 alongday28 alongday28  4096 Jan 10 03:42 Templates
+drwxrwxr-x 5 alongday28 alongday28  4096 Mar 11 17:04 Study
+drwxr-xr-x 3 alongday28 alongday28  4096 Jan 10 04:05 snap
+drwxrwxr-x 2 alongday28 alongday28  4096 Mar 24 23:30 shell
+drwxr-xr-x 2 alongday28 alongday28  4096 Jan 10 03:42 Public
+drwxr-xr-x 2 alongday28 alongday28  4096 Mar 14 10:33 Pictures
+-rw-rw-r-- 1 alongday28 alongday28     0 Mar 24 23:47 PA03.script
+-rw-rw-r-- 1 alongday28 alongday28 11904 Mar 24 23:45 PA03_Documentation.docx
+drwxrwxr-x 3 alongday28 alongday28  4096 Jan 22 09:51 NetBeansProjects
+-rwxrwxr-x 1 alongday28 alongday28 13808 Mar 24 23:47 myshell.distro
+-rw-rw-r-- 1 alongday28 alongday28  2037 Mar 24 23:27 myshell.c
+drwxrwxr-x 2 alongday28 alongday28  4096 Feb 25 02:27 mydata
+drwxr-xr-x 2 alongday28 alongday28  4096 Jan 10 03:42 Music
+drwxr-xr-x 4 alongday28 alongday28  4096 Mar 24 23:45 Downloads
+drwxr-xr-x 2 alongday28 alongday28  4096 Jan 10 03:42 Documents
+drwxr-xr-x 2 alongday28 alongday28  4096 Jan 10 03:42 Desktop
+drwxrwxr-x 2 alongday28 alongday28  4096 Feb  9 21:51 blah
+Sorairono's Shell>$ c echo 123
+123
+Sorairono's Shell>$ echo This custom shell working well
+This custom shell working well
+Sorairono's Shell>$ date
+Sun Mar 24 23:48:31 CDT 2019
+Sorairono's Shell>$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+udev            1.9G     0  1.9G   0% /dev
+tmpfs           382M  6.1M  376M   2% /run
+/dev/sda5        46G  7.5G   36G  18% /
+tmpfs           1.9G   17M  1.9G   1% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           1.9G     0  1.9G   0% /sys/fs/cgroup
+/dev/loop0       91M   91M     0 100% /snap/core/6405
+/dev/loop1       91M   91M     0 100% /snap/core/6350
+/dev/loop4       66M   66M     0 100% /snap/discord/91
+/dev/loop7       35M   35M     0 100% /snap/gtk-common-themes/1122
+/dev/loop8      141M  141M     0 100% /snap/gnome-3-26-1604/78
+/dev/loop3       36M   36M     0 100% /snap/gtk-common-themes/1198
+/dev/loop2      141M  141M     0 100% /snap/gnome-3-26-1604/82
+/dev/loop5       92M   92M     0 100% /snap/core/6531
+/dev/loop6       66M   66M     0 100% /snap/discord/93
+/dev/loop9       66M   66M     0 100% /snap/discord/92
+/dev/sda1        96M   53M   44M  55% /boot/efi
+/dev/sda6       285G  7.9G  262G   3% /home
+tmpfs           382M   76K  382M   1% /run/user/1000
+Sorairono's Shell>$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           3.7G        1.3G        1.3G        421M        1.2G        1.8G
+Swap:          7.7G        193M        7.5G
+Sorairono's Shell>$ ifconfig
+enp3s0f1  Link encap:Ethernet  HWaddr a8:1e:84:ab:28:4d  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:3255 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3255 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:299773 (299.7 KB)  TX bytes:299773 (299.7 KB)
+
+wlp2s0    Link encap:Ethernet  HWaddr 3c:95:09:c9:6f:71  
+          inet addr:10.122.163.174  Bcast:10.122.255.255  Mask:255.255.128.0
+          inet6 addr: fe80::f3b6:73d1:e8ce:761d/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:146804 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:71296 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:134168757 (134.1 MB)  TX bytes:13524891 (13.5 MB)
+
+Sorairono's Shell>$ ls -l | head | sort
+drwxrwxr-x 2 alongday28 alongday28  4096 Feb 25 02:27 mydata
+drwxrwxr-x 2 alongday28 alongday28  4096 Feb  9 21:51 blah
+drwxrwxr-x 3 alongday28 alongday28  4096 Jan 22 09:51 NetBeansProjects
+drwxr-xr-x 2 alongday28 alongday28  4096 Jan 10 03:42 Desktop
+drwxr-xr-x 2 alongday28 alongday28  4096 Jan 10 03:42 Documents
+drwxr-xr-x 2 alongday28 alongday28  4096 Jan 10 03:42 Music
+drwxr-xr-x 4 alongday28 alongday28  4096 Mar 24 23:45 Downloads
+-rw-rw-r-- 1 alongday28 alongday28  2037 Mar 24 23:27 myshell.c
+-rwxrwxr-x 1 alongday28 alongday28 13808 Mar 24 23:47 myshell.distro
+total 96
+Sorairono's Shell>$ ls -l | sort | head
+drwxrwxr-x 2 alongday28 alongday28  4096 Feb 25 02:27 mydata
+drwxrwxr-x 2 alongday28 alongday28  4096 Feb  9 21:51 blah
+drwxrwxr-x 2 alongday28 alongday28  4096 Mar 24 23:30 shell
+drwxrwxr-x 3 alongday28 alongday28  4096 Jan 22 09:51 NetBeansProjects
+drwxrwxr-x 5 alongday28 alongday28  4096 Mar 11 17:04 Study
+drwxr-xr-x 2 alongday28 alongday28  4096 Jan 10 03:42 Desktop
+drwxr-xr-x 2 alongday28 alongday28  4096 Jan 10 03:42 Documents
+drwxr-xr-x 2 alongday28 alongday28  4096 Jan 10 03:42 Music
+drwxr-xr-x 2 alongday28 alongday28  4096 Jan 10 03:42 Public
+drwxr-xr-x 2 alongday28 alongday28  4096 Jan 10 03:42 Templates
+Sorairono's Shell>$ ls -l | tail | head
+drwxrwxr-x 3 alongday28 alongday28  4096 Jan 22 09:51 NetBeansProjects
+-rw-rw-r-- 1 alongday28 alongday28 11904 Mar 24 23:45 PA03_Documentation.docx
+-rw-rw-r-- 1 alongday28 alongday28  4096 Mar 24 23:48 PA03.script
+drwxr-xr-x 2 alongday28 alongday28  4096 Mar 14 10:33 Pictures
+drwxr-xr-x 2 alongday28 alongday28  4096 Jan 10 03:42 Public
+drwxrwxr-x 2 alongday28 alongday28  4096 Mar 24 23:30 shell
+drwxr-xr-x 3 alongday28 alongday28  4096 Jan 10 04:05 snap
+drwxrwxr-x 5 alongday28 alongday28  4096 Mar 11 17:04 Study
+drwxr-xr-x 2 alongday28 alongday28  4096 Jan 10 03:42 Templates
+drwxr-xr-x 3 alongday28 alongday28  4096 Feb  4 19:04 Videos
+Sorairono's Shell>$ ls -l | head | tail
+total 96
+drwxrwxr-x 2 alongday28 alongday28  4096 Feb  9 21:51 blah
+drwxr-xr-x 2 alongday28 alongday28  4096 Jan 10 03:42 Desktop
+drwxr-xr-x 2 alongday28 alongday28  4096 Jan 10 03:42 Documents
+drwxr-xr-x 4 alongday28 alongday28  4096 Mar 24 23:45 Downloads
+drwxr-xr-x 2 alongday28 alongday28  4096 Jan 10 03:42 Music
+drwxrwxr-x 2 alongday28 alongday28  4096 Feb 25 02:27 mydata
+-rw-rw-r-- 1 alongday28 alongday28  2037 Mar 24 23:27 myshell.c
+-rwxrwxr-x 1 alongday28 alongday28 13808 Mar 24 23:47 myshell.distro
+drwxrwxr-x 3 alongday28 alongday28  4096 Jan 22 09:51 NetBeansProjects
+Sorairono's Shell>$ exit
+]0;alongday28@Sorairono: ~[01;32malongday28@Sorairono[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Sun 24 Mar 2019 11:49:25 PM CDT
